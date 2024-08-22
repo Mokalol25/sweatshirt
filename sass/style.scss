@@ -11,8 +11,16 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 40px;
+    // @media screen and (min-width: 768px) {
+    //     width: 768px;
+    //   }
+    //   @media screen and (min-width: 1200px) {
+    //     width: 1200px;
+    //   }
+    //   @media screen and (min-wdth: 1700px){
+    //     width: 1800px;
+    //   }
     
 }
 
@@ -32,7 +40,6 @@
     width: 100%;
     background-color: #000;
 }
-
 .shop {
     padding-top: 50px;
 }
@@ -44,8 +51,20 @@
     gap: 25px;
 }
 .sweater-img {
-    width: 400px;
-    height: 567px;
+    width: 100%;
+    // @media screen and (min-width: 280px) {
+    //     width: 270px;
+    //     height: 437px;
+    // }
+    // @media screen and (min-width: 350px) {
+    //     width: 325px;
+    //     height: 492px;
+    // }
+    @media screen and (min-width: 420px) {
+        width: 400px;
+        height: 567px;
+    }
+    
 }
 .sweter-name {
     font-family: "Gabriela", sans-serif;
@@ -54,4 +73,31 @@
     font-size: 20px;
     margin-bottom: 50px;
     margin-top: 30px;
+}
+
+
+.footer {
+    background-color: #404040;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.contact {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.phone {
+    margin-top: 7.5px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.footer-box {
+    display: flex;
+    gap: 20px;
 }
